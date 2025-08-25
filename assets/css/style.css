@@ -3,12 +3,16 @@
 
 /* CSS Variables */
 :root {
-    --primary-font: "Unica Antiqua", cursive;
+    --primary-font: "Unica Antiqua", static;
     --secondary-font: "Macondo", cursive;
     --primary-color: #3a2620;
     --secondary-color: #aa9581;
     --highlight-color: #416a8e;
     --light-highlight-color: #7a9fc2;
+}
+
+header {
+    color: var(--primary-color);
 }
 
 body {
@@ -18,14 +22,19 @@ body {
 h1,
 h2,
 h3 {
-    font-family: "Macondo", cursive;
+    font-family: "Almendra", serif;
     color: var(--primary-color);
+    text-transform: capitalize;
 }
 
 .sub-heading-color {
     color: var(--highlight-color);
 }
 
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 /* Navbar Styles */
 #navbar {
@@ -37,6 +46,10 @@ h3 {
     width: 35px;
 }
 
+/* Header */
+#header .lead {
+    font-family: "Almendra", serif;
+}
 
 /* grid visualisation for testing */
 /* .container,
