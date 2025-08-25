@@ -22,7 +22,6 @@ header {
 
 body {
     font-family: var(--primary-font);
-
 }
 
 h1,
@@ -80,6 +79,23 @@ h2 {
     border: none;
 }
 
+#booking-form-left {
+    background-color: var(--light-highlight-color);
+    color: #ffffff;
+}
+
+
+.custom-button-outline {
+    border: 3px solid white;
+    padding: 7px 25px;
+    color: white;
+}
+
+.custom-button-outline:hover {
+    background-color: var(--light-highlight-color);
+    color: #ffffff;
+}
+
 /* Footer */
 #footer-group {
     background-color: var(--primary-color);
@@ -120,6 +136,12 @@ a {
     /* Make all services cards same height for improving consistency */
     #services .card-body {
         min-height: 191px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        background-size: contain;
     }
 }
 
