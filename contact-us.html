@@ -66,68 +66,67 @@
     </header>
 
     <!-- Main Element Holiding Key sections of the page-->
-    <main class="container">
-        <row class="row">
-            <address>
-                <strong><i class="fa-solid fa-location-dot"></i>The Shire</strong><br>
-                Middle-earth<br>
-                Arda
-            </address>
-            <p><i class="fa-solid fa-phone"></i>+64 888 1234<br>
-                <i class="fa-regular fa-paper-plane"></i>The.Shire@middle-earth-mail.com
-            </p>
-            <br>
-            <div class="contact-form-container">
-                <h2>Feedback</h2>
-                <form id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
-                        <span class="error-message" id="nameError"></span>
+    <section id="booking-form-left" class="container section">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+                <form>
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input class="form-control" id="name" name="name" type="text" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input class="form-control" id="email" name="email" type="email" required>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="phone" class="form-label">Phone number</label>
+                            <input class="form-control" id="phone" name="phone" type="number" required>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
-                        <span class="error-message" id="emailError"></span>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone</label>
-                        <input type="country" id="country" name="country" placeholder="Country" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
-                        <span class="error-message" id="messageError"></span>
-                    </div>
-                    <button type="submit" class="submit-button">
-                        Send Message
-                    </button>
+                    <button type="submit" class="btn btn-primary">Send us your Parchment</button>
                 </form>
             </div>
-        </row>
+        </div>
+    </section>
     </main>
 
 
     <!-- Footer -->
     <!-- mt-auto added to push footer down the page -->
-    <footer id="contact" contact class="mt-auto">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="social-links mt-4">
-                    <a href="https://www.instagram.com" target="_blank"
-                        aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
-                            class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.facebook.com" target="_blank"
-                        aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
-                            class="fa-brands fa-square-facebook"></i></a>
-                    <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
-                        rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
-                </div>
-            </div>
-        </div>
+    <footer class="mt-auto">
+        <table>
+            <tr>
+                <td id="footer-group">
+                    <address>
+                        <strong><i class="fa-solid fa-location-dot"></i>The Shire</strong><br>
+                        Middle-earth<br>
+                        Arda
+                    </address>
+                    <p><i class="fa-solid fa-phone"></i>+64 888 1234<br>
+                        <i class="fa-regular fa-paper-plane"></i>The.Shire@middle-earth-mail.com
+                    </p>
+                </td>
+                <td id="footer-group">
+                    <ul class="social-networks">
+                        <a href="https://www.instagram.com" target="_blank"
+                            aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com" target="_blank"
+                            aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
+                            rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+        </table>
     </footer>
-
-
 
 
     <!-- Bootstrap Javascript-->

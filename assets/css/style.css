@@ -16,6 +16,10 @@ header {
     text-align: center;
 }
 
+#header .text-center {
+    text-align: center;
+}
+
 body {
     font-family: var(--primary-font);
 
@@ -67,71 +71,34 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+.thick-border {
+    border-bottom: 2px solid #0f0b09;
+}
 
 #new-games .card,
 #fav-games .card {
     border: none;
 }
 
-
 /* Footer */
-#contact {
+#footer-group {
     background-color: var(--primary-color);
-    color: #ffffff;
+    color: var(--secondary-color);
+    position: static;
+    width: 100%;
     padding: 2rem;
-
+    text-align: left;
 }
 
-#contact i {
-    color: #D1AF6B;
-    font-size: 1.2rem;
-    margin-right: 15px;
+#footer-group h3 {
+    color: #ffffff;
 }
 
-#contactform {
-    font-family: Arial, sans-serif;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.contact-form-container {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 600px;
-    width: 100%;
-}
-
-.form-group {
-    margin-bottom: 1rem;
-}
-
-/* Hidden by default */
-.error-message {
-    color: red;
-    font-size: 0.875rem;
-    display: none;
-
-}
-
-.submit-button {
-    background-color: #127229;
+a {
     color: white;
-    border: none;
-    padding: 0.75rem;
-    border-radius: 4px;
-    font-size: 1rem;
-    cursor: pointer;
-    width: 100%;
-    transition: background-color 0.3s;
+    font-size: 1.5rem;
 }
 
-.submit-button:hover {
-    background-color: #218838;
-}
 
 /* grid visualisation for testing */
 /* .container,
@@ -155,7 +122,6 @@ h2 {
         min-height: 191px;
     }
 }
-
 
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
