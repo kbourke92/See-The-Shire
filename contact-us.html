@@ -56,25 +56,73 @@
         </div>
     </nav>
 
+    <!-- Header -->
+    <header id="header" class="container section">
+        <div class="row">
+            <div class="text-center text-xl-start">
+                <h1 class="display-3">Contact Us</h1>
+            </div>
+        </div>
+    </header>
+
     <!-- Main Element Holiding Key sections of the page-->
     <main class="container">
         <row class="row">
-            <div class="col-12 col-xl-6">Icon Box 1</div>
-            <div class="col-12 col-xl-6">Icon Box 2</div>
-        </row>
-        <row class="row">
-            <div class="col-12 col-xl-6">Icon Box 3</div>
-            <div class="col-12 col-xl-6">Icon Box 4</div>
+            <address>
+                <strong><i class="fa-solid fa-location-dot"></i>The Shire</strong><br>
+                Middle-earth<br>
+                Arda
+            </address>
+            <p><i class="fa-solid fa-phone"></i>+64 888 1234<br>
+                <i class="fa-regular fa-paper-plane"></i>The.Shire@middle-earth-mail.com
+            </p>
+            <br>
+            <div class="contact-form-container">
+                <h2>Feedback</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="country" id="country" name="country" placeholder="Country" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="submit-button">
+                        Send Message
+                    </button>
+                </form>
+            </div>
         </row>
     </main>
 
 
     <!-- Footer -->
     <!-- mt-auto added to push footer down the page -->
-    <footer class="mt-auto">
+    <footer id="contact" contact class="mt-auto">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-12 col-md-6 col-xl-4">Social Media links</div>
+                <div class="social-links mt-4">
+                    <a href="https://www.instagram.com" target="_blank"
+                        aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com" target="_blank"
+                        aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
+                            class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
+                        rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
             </div>
         </div>
     </footer>

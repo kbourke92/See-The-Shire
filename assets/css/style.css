@@ -13,10 +13,12 @@
 
 header {
     color: var(--primary-color);
+    text-align: center;
 }
 
 body {
     font-family: var(--primary-font);
+
 }
 
 h1,
@@ -24,7 +26,15 @@ h2,
 h3 {
     font-family: "Almendra", serif;
     color: var(--primary-color);
+}
+
+h1,
+h2 {
     text-transform: capitalize;
+}
+
+h2 {
+    margin-bottom: 2rem;
 }
 
 .sub-heading-color {
@@ -40,6 +50,7 @@ h3 {
 #navbar {
     background-color: var(--primary-color);
     font-family: var(--secondary-font);
+    position: static;
 }
 
 #navbar .logo {
@@ -49,6 +60,77 @@ h3 {
 /* Header */
 #header .lead {
     font-family: "Almendra", serif;
+}
+
+/* Services */
+#services .card {
+    margin-bottom: 1.5rem;
+}
+
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
+
+/* Footer */
+#contact {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 2rem;
+
+}
+
+#contact i {
+    color: #D1AF6B;
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contactform {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-form-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/* Hidden by default */
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    display: none;
+
+}
+
+.submit-button {
+    background-color: #127229;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #218838;
 }
 
 /* grid visualisation for testing */
@@ -61,3 +143,43 @@ h3 {
     border: 2px solid #ffffff;
     background-color: lightgray;
 } */
+
+
+/* Media Queries */
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Make all services cards same height for improving consistency */
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+
+/* Large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+    /* Make all service cards the same height for consistency */
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/* XL devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    /* make all service cards the same height for consistency */
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+
+/* XXL devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+
+    /* make all service cards the same height for consistency */
+    #services .card-body {
+        min-height: 195px;
+    }
+}
