@@ -40,6 +40,7 @@ Link to the deployed page can be found here: https://kbourke92.github.io/See-The
 
 - The text for the about section was taken from Tolkien Gateway https://tolkiengateway.net/wiki/The_Shire
 - Thme icons in the footer were taken from Font Awesome
+- Inspiration for footer came from https://github.com/elainebroche-dev/ms1-thrive/tree/master
 
 ### Media
 - The links to the images are from wikipedia and google images
