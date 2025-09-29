@@ -49,7 +49,7 @@ CSS Testing
 
 ### Unfixed Bugs
 
-- ID bug not removed to allow for style element
+ID bug not removed to allow for style element
 
 ## Deployment
 
