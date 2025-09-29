@@ -1,6 +1,9 @@
 # See-The-Shire
 See The Shire is a tourism website that hopes to convince people to visit The Shire of Middle-Earth. The site will be targeted toward travellers who are looking for a new travel destination. See The Shire will be useful for travellers to see why they should visit Middle-Earth.
 
+<img width="794" height="434" alt="image" src="https://github.com/user-attachments/assets/bb799cc0-b618-4d23-bfc3-e74aa2ba4117" />
+
+
 ## Features
 
 ### Existing Features
@@ -10,6 +13,9 @@ Featured on all four pages, the full responsive navigation bar includes links to
  
 ### Services
 This will allow visitors to get an idea of what our page is about and offers ideas on what visiting The Shire is like. 
+
+<img width="835" height="461" alt="image" src="https://github.com/user-attachments/assets/0b74e62f-4ae7-4ab2-97b6-d668f1dcd581" />
+
 
 ### Newsletter
 This will allow visitors to sign up for our Newsletter to stay informed of what is going on in The Shire.
@@ -21,6 +27,22 @@ The footer section includes links to the relevant social media sites for Love Ru
 ### Contact Us Page
 
 This page will allow users to contact us, give feedback, suggestions for events and as a way for people to show their support.
+
+## Testing
+
+-I tested that this page works in different browsers
+-I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+-I confirmed that the navigation, header, about, things to do and contact us text are all readable and easy to understand.
+-I have confirmed that the form works, requires entry in every field, will only accept an email in the email field and the submit button works.
+
+### Validator Testing
+
+HTML Testing
+-No errors were returned when passing through the official W3C Validator
+
+CSS Testing
+-No errors were returned when passing through the official (Jigsaw) Validator
+
 
 ## Deployment
 
