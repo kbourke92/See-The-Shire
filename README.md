@@ -42,14 +42,14 @@ This page will allow users to contact us, give feedback, suggestions for events 
 ### Validator Testing
 
 HTML Testing
--No errors were returned when passing through the official W3C Validator
+- No errors were returned when passing through the official W3C Validator
 
 CSS Testing
--No errors were returned when passing through the official (Jigsaw) Validator
+- No errors were returned when passing through the official (Jigsaw) Validator
 
 ### Unfixed Bugs
 
--ID bug not removed to allow for style element
+- ID bug not removed to allow for style element
 
 ## Deployment
 
