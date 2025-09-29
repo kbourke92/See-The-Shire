@@ -19,6 +19,7 @@ This will allow visitors to get an idea of what our page is about and offers ide
 
 ### Newsletter
 This will allow visitors to sign up for our Newsletter to stay informed of what is going on in The Shire.
+Once a visitor submits their Name and Email they will be diverted to the below page.
 
 <img width="909" height="288" alt="image" src="https://github.com/user-attachments/assets/1da75d77-07fa-40f8-b503-386e2ba2636b" />
 
