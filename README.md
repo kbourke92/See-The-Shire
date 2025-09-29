@@ -43,6 +43,9 @@ HTML Testing
 CSS Testing
 -No errors were returned when passing through the official (Jigsaw) Validator
 
+### Unfixed Bugs
+
+-ID bug not removed to allow for style element
 
 ## Deployment
 
