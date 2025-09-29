@@ -100,7 +100,7 @@ h2 {
 #footer-group {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    position: static;
+    position: relative;
     width: 100%;
     padding: 2rem;
     text-align: left;
