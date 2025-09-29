@@ -146,19 +146,20 @@ ul {
     }
 
     /* XL devices (large desktops, 1200px and up) */
-    @media screen and (min-width: 1200px) {
+}
 
-        /* make all service cards the same height for consistency */
-        #services .card-body {
-            min-height: 220px;
-        }
+@media screen and (min-width: 1200px) {
+
+    /* make all service cards the same height for consistency */
+    #services .card-body {
+        min-height: 220px;
     }
+}
 
-    /* XXL devices (larger desktops, 1400px and up) */
-    @media screen and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
 
-        /* make all service cards the same height for consistency */
-        #services .card-body {
-            min-height: 195px;
-        }
+    /* make all service cards the same height for consistency */
+    #services .card-body {
+        min-height: 195px;
     }
+}
