@@ -20,6 +20,9 @@ This will allow visitors to get an idea of what our page is about and offers ide
 ### Newsletter
 This will allow visitors to sign up for our Newsletter to stay informed of what is going on in The Shire.
 
+<img width="909" height="288" alt="image" src="https://github.com/user-attachments/assets/1da75d77-07fa-40f8-b503-386e2ba2636b" />
+
+
 ### The Footer
 
 The footer section includes links to the relevant social media sites for Love Running. The links will open in a new tab to allow easy navigation for the user. The footer is valuable to the user as it encourages them to keep connected via social media.
