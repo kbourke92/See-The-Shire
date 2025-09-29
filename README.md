@@ -34,10 +34,10 @@ This page will allow users to contact us, give feedback, suggestions for events 
 
 ## Testing
 
--I tested that this page works in different browsers
--I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
--I confirmed that the navigation, header, about, things to do and contact us text are all readable and easy to understand.
--I have confirmed that the form works, requires entry in every field, will only accept an email in the email field and the submit button works.
+- I tested that this page works in different browsers
+- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+- I confirmed that the navigation, header, about, things to do and contact us text are all readable and easy to understand.
+- I have confirmed that the form works, requires entry in every field, will only accept an email in the email field and the submit button works.
 
 ### Validator Testing
 
