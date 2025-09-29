@@ -61,15 +61,15 @@
             <div class="text-center text-xl-start">
                 <h1 class="display-3">See The Shire</h1>
                 <p class="lead-display-6 primary-color">The world is not in your books and maps. It's out there.</p>
-                <p class="my-4">Did you know? All good stories deserve embellishment. Lets's give you a story of your
+                <p class="my-4">Did you know? All good stories deserve embellishment. Let's give you a story of your
                     own.</p>
             </div>
         </div>
     </header>
 
-    <!-- Main Element Holiding Key sections of the page-->
+    <!-- Main Element Holding Key sections of the page-->
     <main id="services" class="container section">
-        <row class="row">
+        <div class="row">
             <div class="col-12 text-center">
                 <h1 class="display-6">Services</h1>
             </div>
@@ -79,7 +79,7 @@
                     <div class="card-body">
                         <h3 class="card-title sub-heading-color">Warning!</h3>
                         <p class="card-text">
-                            Black riders have been seen around The Shire. Remember you dont know any Bagginses
+                            Black riders have been seen around The Shire. Remember you don't know any Bagginses
                         </p>
                     </div>
                 </div>
@@ -121,14 +121,14 @@
                     </div>
                 </div>
             </div>
-        </row>
+        </div>
 
         <!-- Newsletter -->
 
         <section id="booking-form-left" class="container section">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-8">
-                    <form>
+                    <form action="newsletter.html" method="post">
                         <div class="row">
                             <h2 class="display-3">Newsletter</h2>
                             <div class="col-12 col-lg-6 mb-3">
@@ -140,7 +140,8 @@
                                 <input class="form-control" id="email" name="email" type="email" required>
                             </div>
                         </div>
-                        <button type="submit" class="btn custom-button-outline" href="newsletter.html"> Sign Up to Our
+                        <button type="submit" class="btn custom-button-outline"> Sign
+                            Up to Our
                             Newsletter</button>
                     </form>
                 </div>
@@ -150,35 +151,34 @@
 
     <!-- Footer -->
     <!-- mt-auto added to push footer down the page -->
-    <footer class="mt-auto">
-        <table>
-            <tr>
-                <td id="footer-group">
+    <footer class="mt-auto bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-3" id="footer-group">
                     <address>
-                        <strong><i class="fa-solid fa-location-dot"></i>The Shire</strong><br>
+                        <strong><i class="fa-solid fa-location-dot"></i> The Shire</strong><br>
                         Middle-earth<br>
                         Arda
                     </address>
-                    <p><i class="fa-solid fa-phone"></i>+64 888 1234<br>
-                        <i class="fa-regular fa-paper-plane"></i>The.Shire@middle-earth-mail.com
+                    <p><i class="fa-solid fa-phone"></i> +64 888 1234<br>
+                        <i class="fa-regular fa-paper-plane"></i> The.Shire@middle-earth-mail.com
                     </p>
-                </td>
-                <td id="footer-group">
-                    <ul class="social-networks">
-                        <li><a href="https://www.instagram.com" target="_blank"
+                </div>
+                <div class="col-md-6 mb-3 d-flex align-items-center justify-content-md-end" id="footer-group">
+                    <ul class="social-networks list-inline mb-0">
+                        <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank"
                                 aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
                                     class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="https://www.facebook.com" target="_blank"
+                        <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank"
                                 aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
                                     class="fa-brands fa-square-facebook"></i></a></li>
-                        <li><a href="https://www.x.com" target="_blank"
+                        <li class="list-inline-item"><a href="https://www.x.com" target="_blank"
                                 aria-label="Visit our X feed (opens in a new tab)" rel="noopener"><i
                                     class="fa-brands fa-x-twitter"></i></a></li>
                     </ul>
-                </td>
-                <td></td>
-            </tr>
-        </table>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- Bootstrap Javascript-->
