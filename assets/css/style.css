@@ -3,7 +3,7 @@
 
 /* CSS Variables */
 :root {
-    --primary-font: "Uncial Antiqua";
+    --primary-font: "Unica Antiqua", static;
     --secondary-font: "Macondo", cursive;
     --primary-color: #3a2620;
     --secondary-color: #aa9581;
@@ -24,7 +24,6 @@ body {
     font-family: var(--primary-font);
 }
 
-/* Headings use Almendra for stylistic contrast with primary font */
 h1,
 h2,
 h3 {
@@ -142,12 +141,11 @@ ul {
 
     /* Make all service cards the same height for consistency */
     #services .card-body {
-        /* min-height removed as 'auto' has no effect */
+        min-height: auto;
     }
-
-    /* XL devices (large desktops, 1200px and up) */
 }
 
+/* XL devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
 
     /* make all service cards the same height for consistency */
@@ -156,6 +154,7 @@ ul {
     }
 }
 
+/* XXL devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
 
     /* make all service cards the same height for consistency */
